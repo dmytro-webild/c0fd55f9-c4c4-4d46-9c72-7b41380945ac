@@ -14,7 +14,7 @@ import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import MetricCardTwo from "@/components/sections/metrics/MetricCardTwo";
-import { Sparkles, Search, ArrowUpRight, Monitor, Shield, Zap, Puzzle, TrendingUp, Lock, Phone, MessageCircle, BookOpen, Tv, Camera, Music, Settings, Award, Users, Coffee, Leaf, Globe, Fire, Calendar, Sun, Wheat, Heart, Home, Smile, LampDesk, Star, CalendarCheck } from "lucide-react";
+import { Sparkles, Search, ArrowUpRight, Monitor, Shield, Zap, Puzzle, TrendingUp, Lock, Phone, MessageCircle, BookOpen, Tv, Camera, Music, Settings, Award, Users, Coffee, Leaf, Globe, Calendar, Sun, Wheat, Heart, Home, Smile, LampDesk, Star, CalendarCheck } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -34,11 +34,11 @@ export default function WebAgency2Page() {
         <NavbarLayoutFloatingOverlay
           brandName="Golden Sand Coffee"
           navItems={[
-            { name: "Menu Kopi", href: "#coffee-menu" },
-            { name: "Spesial", href: "#specialties" },
-            { name: "Tentang Kami", href: "#about" },
-            { name: "Galeri", href: "#gallery" },
-            { name: "Hubungi", href: "#contact" }
+            { name: "Menu Kopi", id: "coffee-menu" },
+            { name: "Spesial", id: "specialties" },
+            { name: "Tentang Kami", id: "about" },
+            { name: "Galeri", id: "gallery" },
+            { name: "Hubungi", id: "contact" }
           ]}
           button={{ text: "Pesan Sekarang", href: "#contact" }}
         />
@@ -131,7 +131,7 @@ export default function WebAgency2Page() {
             description="Intip suasana dan kelezatan yang kami tawarkan. Setiap sudut adalah cerita, setiap hidangan adalah seni."
             textboxLayout="default"
             useInvertedBackground={false}
-            buttons={[{ text: "Lihat Lebih Banyak", href: "#gallery" }]} 
+            buttons={[{ text: "Lihat Lebih Banyak", href: "#gallery" }]}
             buttonAnimation="slide-up"
             cardClassName="!h-auto aspect-video"
             features={[
@@ -175,7 +175,7 @@ export default function WebAgency2Page() {
                   { name: "Etiopia", icon: Globe },
                   { name: "Kolombia", icon: Globe },
                   { name: "Indonesia", icon: Globe },
-                  { name: "Roasting", icon: Fire },
+                  { name: "Roasting", icon: Sun },
                   { name: "Freshness", icon: Calendar },
                   { name: "Aroma", icon: Sun },
                 ],
