@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: 'Nikmati kopi spesial dan hidangan lezat di Golden Sand Coffee & Eatery. Suasana nyaman, rasa tak terlupakan. Kunjungi kami sekarang!',
 };
 
+
 const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
   subsets: ["latin"],
